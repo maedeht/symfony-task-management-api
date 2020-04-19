@@ -1,0 +1,25 @@
+register:
+   path: /register
+   controller: App\Controller\AuthController::register
+   methods: POST
+
+index:
+   path: /
+   controller: App\Controller\UserController::index
+   methods: GET
+
+profile:
+   path: /profile
+   controller: App\Controller\AuthController::profile
+   methods: GET
+
+show:
+   path: /{id}
+   controller: App\Controller\UserController::show
+   methods: GET
+
+login:
+  path: /login
+  controller: App\Controller\AuthController::getTokenUser
+  methods: POST
+

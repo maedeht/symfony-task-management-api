@@ -1,0 +1,9 @@
+user:
+    resource: 'resources/user.yaml'
+    name_prefix: user_
+    prefix: /users
+
+task:
+    resource: 'resources/task.yaml'
+    name_prefix: task_
+    prefix: /tasks

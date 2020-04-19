@@ -1,0 +1,24 @@
+index:
+   path: /
+   controller: App\Controller\TaskController::index
+   methods: GET
+
+show:
+   path: /{id}
+   controller: App\Controller\TaskController::show
+   methods: GET
+
+create:
+   path: /
+   controller: App\Controller\TaskController::create
+   methods: POST
+
+update:
+   path: /{id}
+   controller: App\Controller\TaskController::update
+   methods: PUT
+
+delete:
+   path: /{id}
+   controller: App\Controller\TaskController::delete
+   methods: DELETE
